@@ -1,0 +1,58 @@
+{
+ "cards": [
+  {
+   "card": "All PO"
+  },
+  {
+   "card": "All Agricaltuer PO"
+  },
+  {
+   "card": "All Cast-Slitter PO"
+  },
+  {
+   "card": "All Jumpo PO"
+  },
+  {
+   "card": "All Open PO"
+  },
+  {
+   "card": "Open Agricaltuer PO"
+  },
+  {
+   "card": "Open Cast-Slitter PO"
+  },
+  {
+   "card": "Open Jumpo PO"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Created Production Order",
+   "width": "Half"
+  },
+  {
+   "chart": "CAST Product Order Rolls Count",
+   "width": "Half"
+  },
+  {
+   "chart": "Agri Product Order Rolls Count",
+   "width": "Half"
+  },
+  {
+   "chart": "Jumbo Product Order Rolls Count",
+   "width": "Half"
+  }
+ ],
+ "creation": "2023-09-17 10:04:54.428588",
+ "dashboard_name": "QR_v01",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2023-09-17 13:43:44.003163",
+ "modified_by": "it@alqudsplastic.com",
+ "module": "Sap",
+ "name": "QR_v01",
+ "owner": "it@alqudsplastic.com"
+}

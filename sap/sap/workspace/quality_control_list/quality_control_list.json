@@ -1,0 +1,137 @@
+{
+ "charts": [],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Your Shortcuts\", \"level\": 4, \"col\": 12}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Control\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Inspection\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Inspection Parameter\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Inspection Reading\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Inspection Template\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Inspection Summary\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Status\", \"col\": 4}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Quality Filter Profile\", \"col\": 4}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"Quality Inspection\", \"level\": 4, \"col\": 12}}]",
+ "creation": "2023-01-30 11:05:18.295906",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Quality Control list",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection",
+   "link_count": 0,
+   "link_to": "Quality Inspection",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item Quality Inspection Parameter",
+   "link_count": 0,
+   "link_to": "Item Quality Inspection Parameter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Parameter",
+   "link_count": 0,
+   "link_to": "Quality Inspection Parameter",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Parameter Group",
+   "link_count": 0,
+   "link_to": "Quality Inspection Parameter Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Reading",
+   "link_count": 0,
+   "link_to": "Quality Inspection Reading",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Inspection Template",
+   "link_count": 0,
+   "link_to": "Quality Inspection Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-10-29 10:57:23.078911",
+ "modified_by": "it@alqudsplastic.com",
+ "module": "Sap",
+ "name": "Quality Control list",
+ "number_cards": [],
+ "owner": "it_ahmed@alqudsplastic.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 7.0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Quality Control",
+   "link_to": "Quality Control",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Quality Inspection",
+   "link_to": "Quality Inspection",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Quality Inspection Parameter",
+   "link_to": "Quality Inspection Parameter",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Quality Inspection Reading",
+   "link_to": "Quality Inspection Reading",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Quality Inspection Template",
+   "link_to": "Quality Inspection Template",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Quality Inspection Summary",
+   "link_to": "Quality Inspection Summary",
+   "type": "Report"
+  },
+  {
+   "doc_view": "Dashboard",
+   "label": "Quality Status",
+   "link_to": "Quality Status",
+   "type": "Report"
+  },
+  {
+   "color": "#ff8f8f",
+   "doc_view": "List",
+   "label": "Quality Filter Profile",
+   "link_to": "Quality Control Profile",
+   "type": "DocType"
+  }
+ ],
+ "title": "Quality Control list"
+}

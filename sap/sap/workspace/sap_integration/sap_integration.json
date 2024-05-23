@@ -1,0 +1,68 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-04-19 10:31:19.432560",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Sap Integration",
+ "links": [],
+ "modified": "2023-07-21 19:10:16.929498",
+ "modified_by": "it_ahmed@alqudsplastic.com",
+ "module": "Sap",
+ "name": "Sap Integration",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Product Order",
+   "link_to": "Product Order",
+   "stats_filter": "",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Scaler",
+   "link_to": "Scaler",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Quality Control",
+   "link_to": "Quality Control",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Log",
+   "link_to": "Sap Integration Log",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "QC Integration",
+   "link_to": "QC Integration",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Quality Status",
+   "link_to": "Quality Status",
+   "type": "Report"
+  },
+  {
+   "doc_view": "List",
+   "label": "\u0627\u0628\u0644\u0627\u063a \u0627\u0644\u0635\u064a\u0627\u0646\u0647 \u0628\u062d\u062f\u0648\u062b \u0645\u0634\u0643\u0644\u0647",
+   "link_to": "Asset Repair",
+   "type": "DocType"
+  }
+ ]
+}

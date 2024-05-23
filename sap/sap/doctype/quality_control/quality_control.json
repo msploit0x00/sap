@@ -1,0 +1,181 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-05-08 11:55:47.947625",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "options_section",
+  "quality_profile",
+  "f_start_date",
+  "f_end_date",
+  "get_items",
+  "1_column",
+  "f_item_serial",
+  "f_pallet_no",
+  "f_item_no",
+  "update_selected_row_to_po",
+  "section_break_10",
+  "change_rolls_status",
+  "column_break_3",
+  "filter",
+  "column_break_5",
+  "clear_filter",
+  "items_section",
+  "product_items",
+  "change_item_status",
+  "selected_filter_section"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Quality Control Details"
+  },
+  {
+   "fieldname": "change_rolls_status",
+   "fieldtype": "Button",
+   "hidden": 1,
+   "label": "Change Rolls Status"
+  },
+  {
+   "fieldname": "options_section",
+   "fieldtype": "Section Break",
+   "label": "Options"
+  },
+  {
+   "fieldname": "items_section",
+   "fieldtype": "Section Break",
+   "label": "Items"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "filter",
+   "fieldtype": "Button",
+   "label": "Filter"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "clear_filter",
+   "fieldtype": "Button",
+   "label": "Clear Filter"
+  },
+  {
+   "fieldname": "change_item_status",
+   "fieldtype": "Button",
+   "label": "Change Item Status"
+  },
+  {
+   "fetch_from": "quality_profile.start_date",
+   "fetch_if_empty": 1,
+   "fieldname": "f_start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fetch_from": "quality_profile.end_date",
+   "fetch_if_empty": 1,
+   "fieldname": "f_end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fetch_from": "quality_profile.production_no",
+   "fetch_if_empty": 1,
+   "fieldname": "f_item_no",
+   "fieldtype": "Data",
+   "label": "Production No"
+  },
+  {
+   "fetch_from": "quality_profile.pallet_number",
+   "fetch_if_empty": 1,
+   "fieldname": "f_pallet_no",
+   "fieldtype": "Data",
+   "label": "Pallet Number"
+  },
+  {
+   "fetch_from": "quality_profile.item_serial",
+   "fetch_if_empty": 1,
+   "fieldname": "f_item_serial",
+   "fieldtype": "Data",
+   "label": "Item Serial"
+  },
+  {
+   "fieldname": "update_selected_row_to_po",
+   "fieldtype": "Button",
+   "label": "update selected row to PO"
+  },
+  {
+   "fieldname": "1_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "selected_filter_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Selected filter"
+  },
+  {
+   "fieldname": "get_items",
+   "fieldtype": "Button",
+   "label": "Get filtered Rows"
+  },
+  {
+   "fieldname": "quality_profile",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Quality Profile",
+   "options": "Quality Control Profile"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-10-12 09:13:20.330354",
+ "modified_by": "Administrator",
+ "module": "Sap",
+ "name": "Quality Control",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Quality Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

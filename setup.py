@@ -9,9 +9,9 @@ from sap import __version__ as version
 setup(
 	name="sap",
 	version=version,
-	description="ds",
-	author="ds",
-	author_email="ds",
+	description="Sap integration",
+	author="ahmed",
+	author_email="ahmed@debian.org",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

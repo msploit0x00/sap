@@ -4,4 +4,3 @@
 *.swp
 tags
 sap/docs/current
-node_modules/

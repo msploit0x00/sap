@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-21 13:42:28.267978",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "doc_num",
+  "doc_entry",
+  "doc_date",
+  "item_code",
+  "item_description",
+  "vendor",
+  "quantity",
+  "status",
+  "section_break_7",
+  "batch_numbers",
+  "send_to_sap"
+ ],
+ "fields": [
+  {
+   "fieldname": "doc_num",
+   "fieldtype": "Int",
+   "label": "Doc Num"
+  },
+  {
+   "fieldname": "doc_entry",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Doc Entry"
+  },
+  {
+   "fieldname": "doc_date",
+   "fieldtype": "Date",
+   "label": "Doc Date"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "depends_on": "item_code",
+   "fetch_from": "item_code.item_name",
+   "fieldname": "item_description",
+   "fieldtype": "Data",
+   "label": "Item Description"
+  },
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Link",
+   "label": "Vendor",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "label": "Quantity"
+  },
+  {
+   "default": "New",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "status",
+   "options": "New\nUnder Progress\nFinished"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "batch_numbers",
+   "fieldtype": "Table",
+   "label": "Batch Numbers",
+   "options": "QC Integration Details"
+  },
+  {
+   "fieldname": "send_to_sap",
+   "fieldtype": "Button",
+   "label": "send to sap"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-21 13:50:27.981555",
+ "modified_by": "Administrator",
+ "module": "Sap",
+ "name": "QC Integration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Quality Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "doc_entry"
+}
